@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre: </label></td>
+                <td><input type="text" id="nombre" name="nombre"></td>
+            </tr>
+            <tr>
+                <td><label for="cedula">Número de cédula: </label></td>
+                <td><input type="number" id="cedula" name="cedula"></td>
+            </tr>
+            <tr>
+                <td><label for="fecha">Fecha de nacimiento: </label></td>
+                <td><input type="date" id="fecha" name="fecha"></td>
+            </tr>
+            <tr>
+                <td><label for="ciudad">Ciudad: </label></td>
+                <td><input type="text" id="ciudad" name="ciudad"></td>
+            </tr>
+            <tr>
+                <td><label for="correo">Correo: </label></td>
+                <td><input type="email" id="correo" name="correo"></td>
+            </tr>
+            <tr>
+                <td><label for="telefono">Teléfono: </label></td>
+                <td><input type="text" id="telefono" name="telefono"></td>
+            </tr>
+            <tr>
+                <td><label for="direccion">Dirección: </label></td>
+                <td><textarea id="direccion" name="direccion"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="estado_civil">Estado civil: </label></td>
+                <td>
+                    <select id="estado_civil" name="estado_civil">
+                        <option value="">Seleccione</option>
+                        <option value="soltero">Soltero/a</option>
+                        <option value="casado">Casado/a</option>
+                        <option value="divorciado">Divorciado/a</option>
+                        <option value="viudo">Viudo/a</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="etnia">Etnia: </label></td>
+                <td>
+                    <select id="etnia" name="etnia">
+                        <option value="">Seleccione</option>
+                        <option value="mestizo">Mestizo/a</option>
+                        <option value="indigena">Indígena</option>
+                        <option value="afro">Afrodescendiente</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Género: </label></td>
+                <td>
+                    <input type="radio" name="genero" value="masculino"> Masculino
+                    <input type="radio" name="genero" value="femenino"> Femenino
+                    <input type="radio" name="genero" value="otro"> Otro
+                </td>
+            </tr>
+            <tr>
+                <td><label>Hábitos: </label></td>
+                <td>
+                    <input type="checkbox" name="habitos" value="fuma"> Fuma
+                    <input type="checkbox" name="habitos" value="alcohol"> Toma alcohol
+                    <input type="checkbox" name="habitos" value="drogas"> Consume drogas
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center; padding-top: 20px;">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
